@@ -4,9 +4,10 @@
 
 ## This is mostly for me to remember...
 # as
+    - as -o main.o main.s
 # ld
+    - ld -o main main.o -lSystem -syslibroot $(xcrun -sdk macosx --show-sdk-path) -e _start -arch arm64
 # gdb
 # make
 
-
-[ARM Basics](https://armasm.com/docs/getting-to-hello-world/basics/)
+[ARM AArch64 ISA](https://developer.arm.com/documentation/102374/latest/)
