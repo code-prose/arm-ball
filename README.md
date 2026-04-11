@@ -1,4 +1,5 @@
 # Placeholder for animated bouncing ball in terminal written in ARM assembly
+# Need to figure out ASCII gradient... pre-compute? That relies on one font though...
 
 
 
